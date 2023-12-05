@@ -1,0 +1,49 @@
+CRITICAL - 2023-11-06 21:34:22 --> Call to undefined method App\Controllers\Master\DataPenerbit::getData()
+in APPPATH\Controllers\Master\DataPenerbit.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-06 21:35:24 --> Cannot declare class App\Controllers\Master\DataPenerbit because the name is already in use
+in APPPATH\Controllers\Master\DataPenerbit.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-06 22:36:43 --> Array to string conversion
+in APPPATH\Views\master\view_data_penerbit.php on line 35.
+ 1 APPPATH\Views\master\view_data_penerbit.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\app\\Views\\master\\view_data_penerbit.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\app\\Views\\master\\view_data_penerbit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('master\\view_data_penerbit', [], true)
+ 5 APPPATH\Controllers\Master\DataPenerbit.php(16): view('master\\view_data_penerbit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-06 22:37:20 --> A non-numeric value encountered
+in APPPATH\Models\PenerbitModel.php on line 35.
+ 1 APPPATH\Models\PenerbitModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\app\\Models\\PenerbitModel.php', 35, [...])
+ 2 APPPATH\Controllers\Master\DataPenerbit.php(14): App\Models\PenerbitModel->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-06 22:38:03 --> A non-numeric value encountered
+in APPPATH\Models\PenerbitModel.php on line 35.
+ 1 APPPATH\Models\PenerbitModel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\app\\Models\\PenerbitModel.php', 35, [...])
+ 2 APPPATH\Controllers\Master\DataPenerbit.php(14): App\Models\PenerbitModel->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-06 22:39:26 --> Undefined variable: db
+in APPPATH\Models\PenerbitModel.php on line 33.
+ 1 APPPATH\Models\PenerbitModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\app\\Models\\PenerbitModel.php', 33, [])
+ 2 APPPATH\Controllers\Master\DataPenerbit.php(14): App\Models\PenerbitModel->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')

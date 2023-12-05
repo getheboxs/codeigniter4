@@ -1,0 +1,21 @@
+CRITICAL - 2023-11-07 02:48:11 --> Class 'App\Controllers\Master\BaseController' not found
+in APPPATH\Controllers\Master\SumberBuku.php on line 6.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('master/sumberbuku', 'get')
+ 3 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('master/sumberbuku')
+ 4 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('master/sumberbuku')
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-07 03:08:35 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Models\PenerbitModel.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\app\\Models\\PenerbitModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PenerbitModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PenerbitModel')
+ 4 APPPATH\Controllers\Master\DataPenerbit.php(11): spl_autoload_call('App\\Models\\PenerbitModel')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')

@@ -1,0 +1,115 @@
+CRITICAL - 2023-11-28 12:49:40 --> The route for "master/datapenerbit/tambah" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('master/datapenerbit/tambah')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Master\DataPenerbit.php(65): redirect('master/datapenerbit/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-28 12:50:34 --> The route for "master/datapenerbit/tambah" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('master/datapenerbit/tambah')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Master\DataPenerbit.php(65): redirect('master/datapenerbit/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-28 12:50:43 --> The route for "master/datapenerbit/tambah" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('master/datapenerbit/tambah')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Master\DataPenerbit.php(65): redirect('master/datapenerbit/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-28 12:51:05 --> The route for "master/datapenerbit/tambah" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('master/datapenerbit/tambah')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Master\DataPenerbit.php(65): redirect('master/datapenerbit/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-28 12:51:59 --> The route for "/master/datapenerbit/tambah" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/master/datapenerbit/tambah')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Master\DataPenerbit.php(65): redirect('/master/datapenerbit/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-28 13:03:57 --> The route for "/master/datapenerbit/tambah" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/master/datapenerbit/tambah')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Master\DataPenerbit.php(66): redirect('/master/datapenerbit/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-28 13:04:03 --> The route for "/master/datapenerbit/tambah" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 62.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/master/datapenerbit/tambah')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Master\DataPenerbit.php(66): redirect('/master/datapenerbit/tambah')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-28 13:28:19 --> Undefined variable: validationRules
+in APPPATH\Controllers\Master\DataPenerbit.php on line 55.
+ 1 APPPATH\Controllers\Master\DataPenerbit.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validationRules', 'D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\app\\Controllers\\Master\\DataPenerbit.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-28 13:32:22 --> Undefined variable: users
+in APPPATH\Controllers\Master\DataPenerbit.php on line 55.
+ 1 APPPATH\Controllers\Master\DataPenerbit.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: users', 'D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\app\\Controllers\\Master\\DataPenerbit.php', 55, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-28 13:32:37 --> Call to undefined method App\Models\PenerbitModel::getRule
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Master\DataPenerbit.php(55): CodeIgniter\Model->__call('getRule', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-28 13:32:55 --> Undefined variable: validationRules
+in APPPATH\Models\PenerbitModel.php on line 42.
+ 1 APPPATH\Models\PenerbitModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validationRules', 'D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\app\\Models\\PenerbitModel.php', 42, [])
+ 2 APPPATH\Controllers\Master\DataPenerbit.php(55): App\Models\PenerbitModel->getRules()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
+CRITICAL - 2023-11-28 13:34:39 --> Cannot use [] for reading
+in APPPATH\Models\PenerbitModel.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-28 13:35:09 --> Undefined variable: validationRules
+in APPPATH\Models\PenerbitModel.php on line 42.
+ 1 APPPATH\Models\PenerbitModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validationRules', 'D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\app\\Models\\PenerbitModel.php', 42, [])
+ 2 APPPATH\Controllers\Master\DataPenerbit.php(55): App\Models\PenerbitModel->getRules()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\DataPenerbit->simpan()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\DataPenerbit))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\unugiri\\2023\\pwbfTI\\codeigniter4\\public\\index.php')
