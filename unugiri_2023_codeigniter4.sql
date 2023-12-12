@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Dec 05, 2023 at 03:10 AM
+-- Generation Time: Dec 12, 2023 at 03:38 PM
 -- Server version: 5.7.24
 -- PHP Version: 7.4.19
 
@@ -105,15 +105,20 @@ INSERT INTO `tb_penerbit` (`id_penerbit`, `nm_penerbit`, `kt_penerbit`) VALUES
 CREATE TABLE `tb_user` (
   `id_user` int(11) NOT NULL,
   `username` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL
+  `password` varchar(255) NOT NULL,
+  `nickname` varchar(100) DEFAULT NULL,
+  `firstname` varchar(100) DEFAULT NULL,
+  `lastname` varchar(100) DEFAULT NULL,
+  `created_at` varchar(50) DEFAULT NULL,
+  `updated_at` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tb_user`
 --
 
-INSERT INTO `tb_user` (`id_user`, `username`, `password`) VALUES
-(1, 'admin', '$2y$10$/clmNLUUxGnREFHqraU7P.aVfJ5Mk0iEKRgKVz8.ZKOZIUGJGXlya');
+INSERT INTO `tb_user` (`id_user`, `username`, `password`, `nickname`, `firstname`, `lastname`, `created_at`, `updated_at`) VALUES
+(1, 'admin', '$2y$10$/clmNLUUxGnREFHqraU7P.aVfJ5Mk0iEKRgKVz8.ZKOZIUGJGXlya', 'Admin', 'Super', 'Admin', '2023-12-12 14:51:35', '2023-12-12 14:51:35');
 
 --
 -- Indexes for dumped tables
@@ -151,7 +156,7 @@ ALTER TABLE `tb_penerbit`
 -- AUTO_INCREMENT for table `tb_user`
 --
 ALTER TABLE `tb_user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
