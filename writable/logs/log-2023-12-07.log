@@ -1,0 +1,197 @@
+INFO - 2023-12-07 13:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 13:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:12:05 --> Class "App\Controllers\Master\PenerbitModel" not found
+in APPPATH\Controllers\Master\KategoriBuku.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:13:07 --> Undefined variable $kategori
+in APPPATH\Views\master\view_kategori_buku.php on line 58.
+ 1 APPPATH\Views\master\view_kategori_buku.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'D:\\codeigniter4\\app\\Views\\master\\view_kategori_buku.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\codeigniter4\\app\\Views\\master\\view_kategori_buku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('master/view_kategori_buku', [], true)
+ 5 APPPATH\Controllers\Master\KategoriBuku.php(27): view('master/view_kategori_buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:43:06 --> Undefined array key "kt_kategori"
+in APPPATH\Views\master\view_kategori_buku.php on line 63.
+ 1 APPPATH\Views\master\view_kategori_buku.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kt_kategori"', 'D:\\codeigniter4\\app\\Views\\master\\view_kategori_buku.php', 63)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\codeigniter4\\app\\Views\\master\\view_kategori_buku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('master/view_kategori_buku', [], true)
+ 5 APPPATH\Controllers\Master\KategoriBuku.php(27): view('master/view_kategori_buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:46:16 --> Too few arguments to function App\Controllers\Master\KategoriBuku::delete(), 0 passed in D:\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Master\KategoriBuku.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:46:57 --> Too few arguments to function App\Controllers\Master\KategoriBuku::delete(), 0 passed in D:\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Master\KategoriBuku.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:47:08 --> Too few arguments to function App\Controllers\Master\KategoriBuku::delete(), 0 passed in D:\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Master\KategoriBuku.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:47:52 --> Too few arguments to function App\Controllers\Master\KategoriBuku::delete(), 0 passed in D:\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Master\KategoriBuku.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:50:07 --> Too few arguments to function App\Controllers\Master\KategoriBuku::delete(), 0 passed in D:\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Master\KategoriBuku.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:51:44 --> Too few arguments to function App\Controllers\Master\KategoriBuku::delete(), 0 passed in D:\codeigniter4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Master\KategoriBuku.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:52:55 --> Undefined variable $obat
+in APPPATH\Views\master\view_kategori_buku.php on line 66.
+ 1 APPPATH\Views\master\view_kategori_buku.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obat', 'D:\\codeigniter4\\app\\Views\\master\\view_kategori_buku.php', 66)
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\codeigniter4\\app\\Views\\master\\view_kategori_buku.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('master/view_kategori_buku', [], true)
+ 5 APPPATH\Controllers\Master\KategoriBuku.php(27): view('master/view_kategori_buku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:54:11 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2766.
+ 1 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete(0, false)
+ 3 APPPATH\Controllers\Master\KategoriBuku.php(40): CodeIgniter\BaseModel->delete(0)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->delete(0)
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-07 14:54:26 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in D:\codeigniter4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\codeigniter4\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `ka...', 0)
+#1 D:\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 D:\codeigniter4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 D:\codeigniter4\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 D:\codeigniter4\system\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+#5 D:\codeigniter4\system\BaseModel.php(1080): CodeIgniter\Model->doDelete(Array, false)
+#6 D:\codeigniter4\app\Controllers\Master\KategoriBuku.php(40): CodeIgniter\BaseModel->delete(Array)
+#7 D:\codeigniter4\system\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->delete(1)
+#8 D:\codeigniter4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+#9 D:\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\codeigniter4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\codeigniter4\system\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4...')
+#12 {main}
+CRITICAL - 2023-12-07 14:54:26 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kategori`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Master\KategoriBuku.php(40): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->delete(1)
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-07 14:54:59 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2766.
+ 1 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete(0, false)
+ 3 APPPATH\Controllers\Master\KategoriBuku.php(40): CodeIgniter\BaseModel->delete(0)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Master\KategoriBuku->delete(0)
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\KategoriBuku))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\codeigniter4\\public\\index.php')
+INFO - 2023-12-07 14:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 14:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 15:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 15:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 15:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 15:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 15:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 15:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 15:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 15:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 15:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 15:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-07 15:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

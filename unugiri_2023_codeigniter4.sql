@@ -1,5 +1,5 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `kategori`
+-- Struktur dari tabel `kategori`
 --
 
 CREATE TABLE `kategori` (
@@ -32,12 +32,27 @@ CREATE TABLE `kategori` (
   `kd_kategori` varchar(4) NOT NULL,
   `nama_kategori` varchar(50) NOT NULL,
   `keterangan` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data untuk tabel `kategori`
+--
+
+INSERT INTO `kategori` (`id_kategori`, `kd_kategori`, `nama_kategori`, `keterangan`) VALUES
+(2, 'aas', 'ss', 'ccc'),
+(3, 'aas', 'ss', 'ccc'),
+(4, 'aas', 'ss', 'ccc'),
+(5, 'aas', 'ss', 'ccc');
+INSERT INTO `kategori` (`id_kategori`, `kd_kategori`, `nama_kategori`, `keterangan`) VALUES (NULL, 'as', 'll', 'dddcc');
+INSERT INTO `kategori` (`id_kategori`, `kd_kategori`, `nama_kategori`, `keterangan`) VALUES (NULL, 'as', 'll', 'dddcc');
+INSERT INTO `kategori` (`id_kategori`, `kd_kategori`, `nama_kategori`, `keterangan`) VALUES (NULL, 'as', 'll', 'dddcc');
+INSERT INTO `kategori` (`id_kategori`, `kd_kategori`, `nama_kategori`, `keterangan`) VALUES (NULL, 'as', 'll', 'dddcc');
+INSERT INTO `kategori` (`id_kategori`, `kd_kategori`, `nama_kategori`, `keterangan`) VALUES (NULL, 'as', 'll', 'dddcc');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `penerbit`
+-- Struktur dari tabel `penerbit`
 --
 
 CREATE TABLE `penerbit` (
@@ -45,10 +60,10 @@ CREATE TABLE `penerbit` (
   `nm_penerbit` varchar(50) NOT NULL,
   `kt_penerbit` varchar(50) NOT NULL,
   `keterangan` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Dumping data for table `penerbit`
+-- Dumping data untuk tabel `penerbit`
 --
 
 INSERT INTO `penerbit` (`id_penerbit`, `nm_penerbit`, `kt_penerbit`, `keterangan`) VALUES
@@ -58,17 +73,17 @@ INSERT INTO `penerbit` (`id_penerbit`, `nm_penerbit`, `kt_penerbit`, `keterangan
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_penerbit`
+-- Struktur dari tabel `tb_penerbit`
 --
 
 CREATE TABLE `tb_penerbit` (
   `id_penerbit` int(4) NOT NULL,
   `nm_penerbit` varchar(100) NOT NULL,
   `kt_penerbit` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Dumping data for table `tb_penerbit`
+-- Dumping data untuk tabel `tb_penerbit`
 --
 
 INSERT INTO `tb_penerbit` (`id_penerbit`, `nm_penerbit`, `kt_penerbit`) VALUES
@@ -99,7 +114,7 @@ INSERT INTO `tb_penerbit` (`id_penerbit`, `nm_penerbit`, `kt_penerbit`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_user`
+-- Struktur dari tabel `tb_user`
 --
 
 CREATE TABLE `tb_user` (
@@ -114,7 +129,7 @@ CREATE TABLE `tb_user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `tb_user`
+-- Dumping data untuk tabel `tb_user`
 --
 
 INSERT INTO `tb_user` (`id_user`, `username`, `password`, `nickname`, `firstname`, `lastname`, `created_at`, `updated_at`) VALUES
@@ -125,35 +140,47 @@ INSERT INTO `tb_user` (`id_user`, `username`, `password`, `nickname`, `firstname
 --
 
 --
--- Indexes for table `penerbit`
+-- Indeks untuk tabel `kategori`
+--
+ALTER TABLE `kategori`
+  ADD PRIMARY KEY (`id_kategori`);
+
+--
+-- Indeks untuk tabel `penerbit`
 --
 ALTER TABLE `penerbit`
   ADD PRIMARY KEY (`id_penerbit`) USING BTREE;
 
 --
--- Indexes for table `tb_penerbit`
+-- Indeks untuk tabel `tb_penerbit`
 --
 ALTER TABLE `tb_penerbit`
   ADD PRIMARY KEY (`id_penerbit`);
 
 --
--- Indexes for table `tb_user`
+-- Indeks untuk tabel `tb_user`
 --
 ALTER TABLE `tb_user`
   ADD PRIMARY KEY (`id_user`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `tb_penerbit`
+-- AUTO_INCREMENT untuk tabel `kategori`
+--
+ALTER TABLE `kategori`
+  MODIFY `id_kategori` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT untuk tabel `tb_penerbit`
 --
 ALTER TABLE `tb_penerbit`
   MODIFY `id_penerbit` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
--- AUTO_INCREMENT for table `tb_user`
+-- AUTO_INCREMENT untuk tabel `tb_user`
 --
 ALTER TABLE `tb_user`
   MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;

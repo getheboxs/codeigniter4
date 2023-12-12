@@ -6,13 +6,13 @@ use CodeIgniter\Model;
 
 class KategoriModel extends Model
 {
-    protected $table            = 'kategoribukus';
-    protected $primaryKey       = 'id';
+    protected $table            = 'kategori';
+    protected $primaryKey       = 'id_kategori';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['id_kategori', 'kd_kategori', 'nama_kategori', 'keterangan'];
 
     // Dates
     protected $useTimestamps = false;

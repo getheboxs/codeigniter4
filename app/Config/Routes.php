@@ -18,7 +18,8 @@ $routes->group('master', function($routes){
 	$routes->post('penerbit/simpan', 'Master\DataPenerbit::simpan');
 	$routes->get('penerbit/preview/(:segment)', 'Master\DataPenerbit::preview/$1');
 	$routes->post('penerbit/ubah/(:segment)', 'Master\DataPenerbit::ubah/$1');
-	$routes->get('penerbit/delete/(:segment)', 'Master\DataPenerbit::delete/$1');	
+	$routes->get('penerbit/delete/(:segment)', 'Master\DataPenerbit::delete/$1');
+	$routes->delete('kategoribuku/delete/(:num)', 'Master\KategoriBuku::delete/$1');
 });
 
 // Users

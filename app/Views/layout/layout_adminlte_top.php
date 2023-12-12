@@ -14,6 +14,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="<?= base_url('plugins/fontawesome-free/css/all.min.css') ?>">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?= base_url('dist/css/adminlte.min.css') ?>">
+  <!-- simple datatables -->
+  <link rel="stylesheet" href="<?= base_url('plugins/simple-datatables/style.css') ?>">
 </head>
 <body class="hold-transition layout-top-nav">
 <div class="wrapper">
@@ -82,5 +84,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="<?= base_url('dist/js/adminlte.min.js') ?>"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?= base_url('dist/js/demo.js') ?>"></script>
+<script src="<?= base_url('plugins/simple-datatables/simple-datatables.js') ?>"></script>
 </body>
 </html>
